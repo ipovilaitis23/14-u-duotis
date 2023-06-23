@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+h1 {
+    margin-left: 20px;
+}
+.inputs {
+    width: 600px;
+    margin: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
+.buttons {
+    width: 31%;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#text1, #text2, #text3 {
+    width: 100%;
+}
+.button {
+    width: 33%;
+}
+table {
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+table th {
+    background: #eab208;
+}
+table th:nth-of-type(2) {
+    background: #d4a02e;
+}
+table td {
+    background: #372b67;
+    color: white;
+    padding-left: 15px;
+    border:2px solid #eab208;
+}
